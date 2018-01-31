@@ -24,11 +24,11 @@ public class Categoria {
 		this.codigo = codigo;
 	}
 
-	public String getName() {
+	public String getNome() {
 		return nome;
 	}
 
-	public void setName(String nome) {
+	public void setNome(String nome) {
 		this.nome = nome;
 	}
 
