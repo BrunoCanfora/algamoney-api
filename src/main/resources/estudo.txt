@@ -1,0 +1,115 @@
+Algaworks
+
+Desenvolvimento Spring Boot com Angular II e Rest
+
+Aula 1.1 Introdução ao curso
+
+Aula 1.2 Como usar o suporte
+
+Aula 1.3 O que é SOFEA(Service-Oriented Front-End Architecture)
+	- Arquitetura de front end orientada a serviços
+
+	- Benefícios:
+		Desenvolvimento assincrono do front-end e back-end
+		Escalabilidade
+		Interoperabilidade
+		Melhor experiencia para o usuário e baixa latencia
+		
+Aula 1.4 O que é Rest?
+	É uma arquitetura
+	
+	API Rest(Aplicação programada de interface)
+
+Aula 1.5 Conhecendo o projeto do curso
+	
+Aula 1.6 Ambiente de desenvolvimento Rest
+	Utilizar Spring Boot IDE STS(Spring tools suite)
+	Banco de dados MySQL
+	Postman para testar os serviços rest
+
+Aula 1.7 Testando API´s com postman
+
+Aula 1.8 Introdução ao protocolo HTTP
+	HTTP Request - Requisição
+	HTTP Response - Resposta
+	
+	- Toda requisição HTTP vai ter um verbo que pode ser um GET, POST, PUT
+	- URL disponivel para realizar a requisição
+	- Headers informações a mais
+	- Parametros Query String, payload
+	
+	- Toda resposta HTTP vai ter o CODE, HEADERS e Resposta
+	
+Aula 2.1 O que é um recurso?
+	É uma forma de identificar e separar informações por exemplo:
+	www.barcelona.com/jogadores/10
+	Resultado Messi
+	
+	www.barcelona.com/jogadores
+	Resultado Todos os jogadores do Barcelona
+	
+Aula 2.2 Representações de um recurso
+	Ao selecionar um recurso eu posso encontrar varios formatos no mesmo.
+	No caso Messi, posso encontrar uma imagem, um JSON ou até mesmo um XML essas são as
+	representações de um recurso
+	
+Aula 2.3 Modelo de maturidade Richardson - Nivel 0
+	Nivel 0 não é REST
+	HTTP só como transporte
+	Usando o mesmo serviço e utilizando o mesmo verbo
+	
+Aula 2.4 Modelo de maturidade Richardson - Nivel 1
+	Nivel 1 ainda não é rest
+	Utiliza recurso
+	Utiliza o mesmo verbo
+	E não utiliza os códigos de retorno de uma maneira correta.
+	
+Aula 2.5 Modelo de maturidade Richardson - Nivel 2
+	Nivel 2 já pode considerar como REST
+	Utilizar os verbos de forma mais efetiva(POST GET)
+	Utilizar os códigos de retorno de forma mais efetiva tbm além do (200 OK)
+	Utiliza recurso
+	
+Aula 2.6 Modelo de maturidade Richardson - Nivel 3
+	Nivel 3 é o REST completo
+	A resposta que muda, a forma que é feita as requisições é a mesma do nivel 2
+	É mostrado a forma de realizar as requisições
+	Trabalhando mais com os verbos
+	
+Aula 2.7 HATEOAS
+	Basicamente é colocar as regras de negócio via servidor para não afetar os 
+	clientes via links
+	Formato HAL via spring para implementar o HATEOAS 
+	
+Aula 2.8 Segurança de API´s REST
+	Formas de segurança da sua aplicação desde a infra da empresa até as formas
+	de desenvolvimento do mesmo.
+	-Certificados de segurança.
+	-Tokens (Vai ser utilizada no curso)
+	-Basic
+	-Digest
+	Spring Security
+	
+Aula 2.9 Idempotencia
+	Um metodo é considerado idempotente se o resultado por ele produzido é o
+	mesmo, idempendente do número de vezes que é executado.
+	
+Aula 3.1 Criando o projeto da API
+
+Aula 3.2 Conectando ao MySQL
+
+Aula 3.3 Migração de dados com Flyway
+
+Aula 3.4 Consultando primeiro recurso com GET
+
+Aula 3.5 Coleção vazia, o que retornar?
+
+Aula 3.6 Cadastrando nova categoria com o Post
+
+Aula 3.7 Desafio: Retornar 404 caso não exista a categoria
+
+Aula 3.8 Validando atributos desconhecidos
+	Status code:
+	2xx -> Sucesso
+	4xx -> Erro do clientes
+	5xx -> Erro no serviço/servidor
