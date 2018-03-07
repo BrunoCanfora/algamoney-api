@@ -15,6 +15,8 @@ public class Categoria {
 	private Long codigo;
 	
 	private String nome;
+	
+	//---------------------------------------------GETTERSANDSETTERS---------------------------------------------------
 
 	public Long getCodigo() {
 		return codigo;
