@@ -113,3 +113,6 @@ Aula 3.8 Validando atributos desconhecidos
 	2xx -> Sucesso
 	4xx -> Erro do clientes
 	5xx -> Erro no serviço/servidor
+
+Aula 3.9 Tratando Erros com ExceptionHandler
+	Tratamento de erros
