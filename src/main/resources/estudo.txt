@@ -118,3 +118,5 @@ Aula 3.9 Tratando Erros com ExceptionHandler
 	Tratamento de erros
 
 Aula 3.10 Validando valores inválidos com o Bean Validation
+
+Aula 3.11 Desafio: Criando o cadastro de pessoa
