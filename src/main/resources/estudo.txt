@@ -116,3 +116,5 @@ Aula 3.8 Validando atributos desconhecidos
 
 Aula 3.9 Tratando Erros com ExceptionHandler
 	Tratamento de erros
+
+Aula 3.10 Validando valores inválidos com o Bean Validation
