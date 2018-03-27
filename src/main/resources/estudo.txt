@@ -122,3 +122,5 @@ Aula 3.10 Validando valores inválidos com o Bean Validation
 Aula 3.11 Desafio: Criando o cadastro de pessoa
 
 Aula 3.12 Usando eventos para adicionar header Location
+
+Aula 4.1 Removendo pessoa com DELETE
