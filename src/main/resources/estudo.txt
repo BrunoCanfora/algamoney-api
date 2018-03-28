@@ -129,3 +129,5 @@ Aula 4.2 Sobre atualização de recursos REST
 	Utilizando o verbo PUT para atualização de recursos.
 	Utilizar atualizaçãoes parciais utilizando recursos mais definidos.
 	Expor a URL que será alterada.
+	
+Aula 4.3 Atualizando pessoa com PUT
