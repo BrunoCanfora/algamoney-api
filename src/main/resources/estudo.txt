@@ -124,3 +124,8 @@ Aula 3.11 Desafio: Criando o cadastro de pessoa
 Aula 3.12 Usando eventos para adicionar header Location
 
 Aula 4.1 Removendo pessoa com DELETE
+
+Aula 4.2 Sobre atualização de recursos REST
+	Utilizando o verbo PUT para atualização de recursos.
+	Utilizar atualizaçãoes parciais utilizando recursos mais definidos.
+	Expor a URL que será alterada.
