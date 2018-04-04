@@ -133,3 +133,5 @@ Aula 4.2 Sobre atualização de recursos REST
 Aula 4.3 Atualizando pessoa com PUT
 
 Aula 4.4 Implementando atualização parcial com PUT
+
+Aula 5.1 Criando a migração e entidade de lançamento
