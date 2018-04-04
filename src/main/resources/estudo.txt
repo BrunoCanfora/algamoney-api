@@ -135,3 +135,5 @@ Aula 4.3 Atualizando pessoa com PUT
 Aula 4.4 Implementando atualização parcial com PUT
 
 Aula 5.1 Criando a migração e entidade de lançamento
+
+Aula 5.2 Desafio: Lista e busca de lançamentos
