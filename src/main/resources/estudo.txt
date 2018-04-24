@@ -139,3 +139,5 @@ Aula 5.1 Criando a migração e entidade de lançamento
 Aula 5.2 Desafio: Lista e busca de lançamentos
 
 Aula 5.3 Desafio: Cadastrando o primeiro lançamento
+
+Aula 5.4 Validando Inconsistências
