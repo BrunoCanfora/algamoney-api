@@ -5,7 +5,10 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.Table;
+import javax.persistence.Transient;
 import javax.validation.constraints.NotNull;
+
+import com.fasterxml.jackson.annotation.JsonIgnore;
 
 @Entity
 @Table(name = "pessoa")
@@ -25,7 +28,13 @@ public class Pessoa {
 	private Boolean ativo;
 	
 	//------------------------------------GettersandSetters---------------------------------------
-
+	
+	@JsonIgnore
+	@Transient
+	public Boolean isInativo() {
+		return !this.ativo;
+	}
+	
 	public Long getCodigo() {
 		return codigo;
 	}
