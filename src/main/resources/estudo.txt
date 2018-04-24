@@ -141,3 +141,5 @@ Aula 5.2 Desafio: Lista e busca de lançamentos
 Aula 5.3 Desafio: Cadastrando o primeiro lançamento
 
 Aula 5.4 Validando Inconsistências
+
+Aula 5.5 Validando lançamento com Bean Validation
