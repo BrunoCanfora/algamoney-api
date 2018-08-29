@@ -145,3 +145,6 @@ Aula 5.4 Validando Inconsistências
 Aula 5.5 Validando lançamento com Bean Validation
 
 Aula 5.6 Regra para não salvar pessoa inativa
+
+Aula 5.7 Implementando pesquisa de lançamento com Metamodel
+	Utilização do metamodel seria só para quando usar string não errar(Ao montar o criteria do JPA).
